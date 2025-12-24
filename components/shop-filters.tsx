@@ -102,7 +102,7 @@ export function ShopFilters({ onFilterChange, onSearch }: ShopFiltersProps) {
     searchQuery.length > 0
 
   return (
-    <div className="w-full lg:w-80">
+    <div className="w-full ">
       {/* Search */}
       <div className="mb-6">
         <div className="relative">

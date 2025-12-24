@@ -69,7 +69,7 @@ export default function ShopPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
             {/* Filters Sidebar */}
-            <div className="hidden lg:block">
+            <div className="hidden lg:block lg:col-span-1">
               <ShopFilters onFilterChange={setFilters} onSearch={setSearchQuery} />
             </div>
 
