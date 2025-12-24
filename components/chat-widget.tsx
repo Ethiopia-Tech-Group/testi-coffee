@@ -59,7 +59,7 @@ export function ChatWidget() {
         <div className="fixed bottom-24 right-6 w-96 max-w-[calc(100vw-2rem)] bg-white rounded-2xl shadow-2xl z-40 overflow-hidden flex flex-col h-96">
           {/* Header */}
           <div className="bg-[#3B6638] text-white p-4">
-            <h3 className="font-semibold">BrewLux Support</h3>
+            <h3 className="font-semibold">Testi Coffee Support</h3>
             <p className="text-xs text-green-100">Typically replies in minutes</p>
           </div>
 

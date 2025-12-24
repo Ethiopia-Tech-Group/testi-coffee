@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import { Facebook, Instagram, Twitter } from "lucide-react"
+import Image from "next/image"
 
 export function Footer() {
   return (
@@ -11,10 +12,14 @@ export function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 rounded-full bg-[#3B6638] flex items-center justify-center">
-                <span className="text-white font-bold text-sm">B</span>
-              </div>
-              <span className="font-semibold text-lg">BrewLux</span>
+              <Image
+                src="/logo.jpg"
+                alt="Testi Coffee Logo"
+                width={40}
+                height={40}
+                className="rounded-md"
+              />
+              <span className="font-semibold text-lg">Testi Coffee</span>
             </div>
             <p className="text-gray-400 text-sm">Premium single-origin coffee delivered fresh to your door.</p>
           </div>
@@ -76,8 +81,8 @@ export function Footer() {
           {/* Contact */}
           <div>
             <h3 className="font-semibold mb-4">Contact</h3>
-            <p className="text-gray-400 text-sm mb-4">Email: hello@brewlux.com</p>
-            <p className="text-gray-400 text-sm mb-4">Phone: +1 (555) 123-4567</p>
+            <p className="text-gray-400 text-sm mb-4">Email: yisak@testicoffee.com </p>
+            <p className="text-gray-400 text-sm mb-4">Phone: +251 93 010 755</p>
             <div className="flex space-x-4">
               <a href="#" className="hover:text-[#3B6638] transition">
                 <Facebook className="w-5 h-5" />
@@ -94,7 +99,7 @@ export function Footer() {
 
         {/* Bottom */}
         <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
-          <p>&copy; 2025 BrewLux. All rights reserved.</p>
+          <p>&copy; 2025 Testi Coffee. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link href="/" className="hover:text-white transition">
               Privacy Policy

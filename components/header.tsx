@@ -3,6 +3,7 @@
 import { ShoppingCart, Search, User, Heart } from "lucide-react"
 import Link from "next/link"
 import { useState } from "react"
+import Image from "next/image"
 
 export function Header() {
   const [cartItemCount] = useState(2)
@@ -13,10 +14,14 @@ export function Header() {
         <div className="h-16 flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 rounded-full bg-[#3B6638] flex items-center justify-center">
-              <span className="text-white font-bold text-sm">B</span>
-            </div>
-            <span className="font-semibold text-lg text-gray-900">BrewLux</span>
+            <Image
+              src="/logo.jpg"
+              alt="Testi Coffee Logo"
+              width={40}
+              height={40}
+              className="rounded-full w-12 h-12"
+            />
+            <span className="font-semibold text-lg text-gray-900">Testi Coffee</span>
           </Link>
 
           {/* Navigation */}

@@ -10,7 +10,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "BrewLux Coffee - Premium Single-Origin Coffee",
+  title: "Testi Coffee",
   description: "Discover the finest single-origin and specialty coffees. Ethically sourced, freshly roasted.",
   icons: {
     icon: [
