@@ -39,15 +39,15 @@ export function Header() {
 
           {/* Right Icons */}
           <div className="flex items-center space-x-4">
-            <button className="p-2 hover:bg-gray-100 rounded-lg transition">
+            {/* <button className="p-2 hover:bg-gray-100 rounded-lg transition">
               <Search className="w-5 h-5 text-gray-700" />
-            </button>
+            </button> */}
             <Link href="/account" className="p-2 hover:bg-gray-100 rounded-lg transition">
               <User className="w-5 h-5 text-gray-700" />
             </Link>
-            <button className="p-2 hover:bg-gray-100 rounded-lg transition">
+            {/* <button className="p-2 hover:bg-gray-100 rounded-lg transition">
               <Heart className="w-5 h-5 text-gray-700" />
-            </button>
+            </button> */}
             <Link href="/cart" className="relative p-2 hover:bg-gray-100 rounded-lg transition">
               <ShoppingCart className="w-5 h-5 text-gray-700" />
               {cartItemCount > 0 && (
